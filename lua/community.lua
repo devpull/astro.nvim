@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.vue" },
+  { import = "astrocommunity.pack.tailwindcss" },
   -- Scrolling animation
   { import = "astrocommunity.scrolling.mini-animate" },
   -- TODO errors
