@@ -7,12 +7,15 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  -- Languages support
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.vue" },
-  -- Search throw all files with grep
-  { import = "astrocommunity.utility.telescope-live-grep-args-nvim" },
+  -- Scrolling animation
+  { import = "astrocommunity.scrolling.mini-animate" },
+  -- TODO errors
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
   -- Moving lines up and down
   { import = "astrocommunity.motion.mini-move" },
   -- import/override with your plugins folder

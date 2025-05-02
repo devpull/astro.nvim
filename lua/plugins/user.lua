@@ -42,6 +42,19 @@ return {
     },
   },
 
+  -- Neotree plugin settings
+  -- Making filtered files visible
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      filesystem = {
+        filtered_items = {
+          visible = true,
+        },
+      },
+    },
+  },
+
   -- You can disable default plugins as follows:
   { "max397574/better-escape.nvim", enabled = false },
 
